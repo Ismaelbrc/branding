@@ -110,12 +110,86 @@ Brand value = Financial Performance × Role of Brand × Brand Strength
 ---
 
 ### BCG: Brand Equity in the Age of AI
-*"Building Lasting Brand Equity in the Age of AI," BCG 2025*
+*"Building Lasting Brand Equity in the Age of AI," BCG December 2025. Survey: 2,400 consumers + 130 senior marketing leaders.*
 
-Three things that outperforming brands do:
-1. **Authenticity** — The #1 purchase driver for 68% of consumers. With AI democratizing creative production, authenticity becomes the last true competitive moat.
-2. **Precision attention** — High-maturity marketers are 1.7x more likely to run multiple video variants with distinct story arcs targeting specific segments.
-3. **Measurable brand investment** — Treat brand as a measurable, strategic investment — not a discretionary line item.
+#### The Core Diagnosis
+GenAI has unleashed an explosion of content — and the very tools that fuel creativity are simultaneously producing a flood of brand content that looks and sounds alike. **Brand distinctiveness is now the last true competitive moat.** In an AI-saturated market, the only sustainable return comes from investing in five practices that move influence, trust, and choice.
+
+#### The Economics of Brand Investment
+Every dollar cut from brand spend costs **$1.92 in future investment** to regain lost share (up from $1.85 in 2022). Cutting brand spend is not neutral — it is an accelerating debt.
+
+#### The Five Practices for Above-Market Brand Returns
+
+**1. Understand What Influences Consumers: The Influence Map**
+Consumers no longer move linearly from awareness to conversion — they flow fluidly across touchpoints in patterns BCG calls the **4S Behaviors**:
+
+| Behavior | Description |
+|----------|-------------|
+| **Streaming** | Passive consumption (video, audio, content) |
+| **Scrolling** | Active browsing (social feeds, discovery) |
+| **Searching** | Intent-driven lookup |
+| **Shopping** | Purchase and post-purchase |
+
+These behaviors occur at *all stages* of the journey — not in sequence. Leading marketers build **influence maps** to visualize how touchpoints interact across the whole journey, rather than assigning channels to funnel stages.
+
+**Evidence:** Research across 50 brands and 40 touchpoints showed that prioritizing the *right* touchpoints on the *right* pathways delivered **+25% market share growth** vs. average. Wrong touchpoint mix **reduced share by 13%**.
+
+**2. Use Precision to Capture Attention**
+- 50% of consumers cite capturing attention as a top driver of purchase decisions
+- High-maturity marketers use social listening, platform analytics, and behavioral insights to identify precise windows of opportunity
+- They are **1.7x more likely** to run multiple video variants with distinct story arcs tailored to different audiences
+- 2/3 of high-maturity marketers name "influencing target audiences' decisions" as their top brand objective (vs. brand awareness for lower-maturity peers)
+
+**3. Strengthen Authenticity**
+- Authenticity is the **#1 purchase driver for 68% of consumers**
+- With AI democratizing creative execution, authenticity is the dimension AI cannot replicate at scale
+- BCG's guidance: blend human creativity with AI's power to scale — never the reverse
+- Tactical implication: choose the space you want to own and commit to it. Prior to GenAI, brands could chase adjacent markets without penalty. Now, any brand that drifts loses its ability to cut through
+
+**4. Activate Where It Matters: Channel Precision**
+- Top online video platforms influence purchase **13 percentage points more than TV** and reach 95% of the US internet audience
+- Brands whose customers engaged with both online video AND search increased full-funnel conversion by **12 percentage points**
+- Outperformers use a **demand-space approach**: segment by the intersection of consumer context + emotional/functional need (not demographic)
+
+**5. Measure with Financial Rigor: The First-Fast Response Metric**
+BCG's proprietary **First-Fast Response (FFR)** captures System 1 (fast/automatic) brand associations — the immediate cognitive link between a brand and a consumer need.
+
+| Metric | FFR vs. Unaided Awareness |
+|--------|--------------------------|
+| Responsiveness | **2.6x more responsive** |
+| Future sales prediction | **4x more predictive** |
+| Consideration prediction | **1.3x better** |
+| Purchase prediction | **1.5x better** |
+
+High FFR scores correlate with an **8-point lift** in brand performance.
+70% of high-maturity marketers triangulate across **3 or more measurement methodologies** to capture both short- and long-term effects.
+
+#### Marketing Maturity Model (BCG 2024)
+*Based on 100+ brands across Europe, Middle East, and Africa in 11 industries. Average marketing maturity declined 8% from 2021–2024 — the bar keeps rising.*
+
+| Level | Name | What it looks like |
+|-------|------|--------------------|
+| 1 | **Nascent** | Basic digital; siloed data; no AI |
+| 2 | **Emerging** | 1P data activated; digital strategies integrated |
+| 3 | **Connected** | High data/digital integration; culture of experimentation; some AI |
+| 4 | **Multi-moment** | Advanced AI; real-time personalization; multi-channel orchestration |
+
+**Four unlocks** to advance maturity levels:
+1. Link marketing performance to strategic outcomes (revenue, share, pricing power)
+2. Build integrated teams with genuine AI/GenAI expertise
+3. Prioritize actionability of data over data volume
+4. Focus on smart execution of selected AI use cases — don't spread thin
+
+#### Precision Branding (BCG 2023 — the foundation of the 2025 framework)
+Precision branding = **demand spaces** + martech + lower-cost creative + analytics
+
+A demand space = the intersection of **consumer context** (occasion, environment, mindset) and **consumer need** (emotional + functional). Brands that map and prioritize their demand spaces can allocate budget with the same rigor as any other capital investment.
+
+**Apply this framework by asking:**
+- Where are consumers in the 4S loop when your brand has the most influence?
+- Is your FFR score rising or declining? (Leading indicator before traditional metrics shift)
+- Are you at Maturity Level 1, 2, 3, or 4? What are your two biggest gaps to the next level?
+- How much of your brand's distinctiveness is human-made vs. AI-replicable?
 
 ---
 
