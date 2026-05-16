@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+
+  <!--
+    FAROL — Ícone isolado
+    Para favicon, app icon, selo, uso sem wordmark.
+    Versão compacta do símbolo principal.
+  -->
+
+  <!-- PLATAFORMA -->
+  <rect x="10" y="132" width="100" height="5"  fill="#143D6B" rx="1"/>
+  <rect x="18" y="126" width="84"  height="6"  fill="#0D2B4E" rx="1"/>
+
+  <!-- NÍVEL 1 — Base -->
+  <rect x="22"  y="92"  width="76" height="34" fill="#0D2B4E"/>
+
+  <!-- Faixa 1→2 -->
+  <rect x="18"  y="87"  width="84" height="5"  fill="#143D6B"/>
+
+  <!-- NÍVEL 2 — Torre -->
+  <rect x="32"  y="44"  width="56" height="43" fill="#0D2B4E"/>
+
+  <!-- Faixa 2→3 -->
+  <rect x="28"  y="40"  width="64" height="5"  fill="#143D6B"/>
+
+  <!-- NÍVEL 3 — Lanterna -->
+  <rect x="44"  y="18"  width="32" height="22" fill="#0D2B4E"/>
+
+  <!-- Telhado -->
+  <polygon points="39,18  81,18  72,9  48,9" fill="#143D6B"/>
+
+  <!-- FLOR — a luz -->
+  <!-- Centro: (60, 6)  Comprimento pétala: 18 -->
+  <path d="M60,6 C55,1 57,-8 60,-12 C63,-8 65,1 60,6Z"
+        fill="#E8614A" transform="rotate(0,   60,6)"/>
+  <path d="M60,6 C55,1 57,-8 60,-12 C63,-8 65,1 60,6Z"
+        fill="#E8614A" transform="rotate(72,  60,6)"/>
+  <path d="M60,6 C55,1 57,-8 60,-12 C63,-8 65,1 60,6Z"
+        fill="#E8614A" transform="rotate(144, 60,6)"/>
+  <path d="M60,6 C55,1 57,-8 60,-12 C63,-8 65,1 60,6Z"
+        fill="#E8614A" transform="rotate(216, 60,6)"/>
+  <path d="M60,6 C55,1 57,-8 60,-12 C63,-8 65,1 60,6Z"
+        fill="#E8614A" transform="rotate(288, 60,6)"/>
+
+  <circle cx="60" cy="6" r="6.5" fill="#D4A84B"/>
+  <circle cx="60" cy="6" r="3"   fill="#B8882A"/>
+
+</svg>
