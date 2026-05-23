@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 130">
+
+  <!--
+    NORVIS — Logo principal
+    Conceito: o olho que enxerga o que os outros não veem.
+    VIS = visão em latim. NOR = precisão nórdica.
+    Símbolo: olho geométrico puro. Wordmark: leve, institucional.
+    Para uso em fundos claros.
+  -->
+
+  <!-- SÍMBOLO — O Olho -->
+  <!-- Olho centrado em (62, 58), largura 94, altura 36 -->
+
+  <!-- Forma externa do olho -->
+  <path d="M 15,58 C 35,32 89,32 109,58 C 89,84 35,84 15,58 Z"
+        fill="none" stroke="#0D1B2A" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <!-- Íris -->
+  <circle cx="62" cy="58" r="14" fill="none" stroke="#0D1B2A" stroke-width="2.8"/>
+
+  <!-- Pupila — o ponto de visão -->
+  <circle cx="62" cy="58" r="5.5" fill="#0D1B2A"/>
+
+  <!-- WORDMARK -->
+  <text
+    x="130" y="70"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="40"
+    font-weight="300"
+    letter-spacing="10"
+    fill="#0D1B2A">NORVIS</text>
+
+  <!-- TAGLINE -->
+  <text
+    x="131" y="90"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="9"
+    font-weight="400"
+    letter-spacing="4"
+    fill="#3B6FD4"
+    opacity="0.80">INTELIGÊNCIA QUE ENXERGA</text>
+
+</svg>

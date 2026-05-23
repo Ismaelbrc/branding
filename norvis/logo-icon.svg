@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60">
+
+  <!--
+    NORVIS — Ícone isolado
+    Para favicon, app icon, selo, uso sem wordmark.
+    O olho puro. Sem texto.
+  -->
+
+  <!-- Olho centrado em (40, 30), largura 70, altura 26 -->
+  <path d="M 5,30 C 20,10 60,10 75,30 C 60,50 20,50 5,30 Z"
+        fill="none" stroke="#0D1B2A" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Íris -->
+  <circle cx="40" cy="30" r="11" fill="none" stroke="#0D1B2A" stroke-width="3"/>
+
+  <!-- Pupila -->
+  <circle cx="40" cy="30" r="4.5" fill="#0D1B2A"/>
+
+</svg>

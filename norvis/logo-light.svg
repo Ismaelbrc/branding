@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 130">
+
+  <!--
+    NORVIS — Logo versão clara
+    Para uso em fundos escuros (navy, carvão, preto).
+    Símbolo e wordmark em branco/creme.
+    Tagline em azul nórdico claro.
+  -->
+
+  <!-- SÍMBOLO — O Olho (versão clara) -->
+  <path d="M 15,58 C 35,32 89,32 109,58 C 89,84 35,84 15,58 Z"
+        fill="none" stroke="#EEF2F7" stroke-width="2.8" stroke-linejoin="round"/>
+
+  <circle cx="62" cy="58" r="14" fill="none" stroke="#EEF2F7" stroke-width="2.8"/>
+
+  <circle cx="62" cy="58" r="5.5" fill="#EEF2F7"/>
+
+  <!-- WORDMARK — claro -->
+  <text
+    x="130" y="70"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="40"
+    font-weight="300"
+    letter-spacing="10"
+    fill="#EEF2F7">NORVIS</text>
+
+  <!-- TAGLINE — azul nórdico claro -->
+  <text
+    x="131" y="90"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="9"
+    font-weight="400"
+    letter-spacing="4"
+    fill="#7AAFF0"
+    opacity="0.85">INTELIGÊNCIA QUE ENXERGA</text>
+
+</svg>
