@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NORVIS — Inteligência que Enxerga</title>
+  <meta name="description" content="Holding brasileira de sistemas de inteligência artificial para serviços essenciais. Presença digital, patrimônio, previdência — automatizados.">
+  <meta property="og:title" content="NORVIS — Inteligência que Enxerga">
+  <meta property="og:description" content="Sistemas de IA que trabalham enquanto você vive.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg viewBox="0 0 110 42" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-logo-svg">
+          <path d="M 2,21 C 18,6 36,6 52,21 C 36,36 18,36 2,21 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="none"/>
+          <circle cx="27" cy="21" r="9" stroke="currentColor" stroke-width="2.2" fill="none"/>
+          <circle cx="27" cy="21" r="3.5" fill="currentColor"/>
+          <text x="62" y="27" font-family="'Inter', sans-serif" font-size="18" font-weight="300" letter-spacing="5" fill="currentColor">NORVIS</text>
+        </svg>
+      </a>
+      <div class="nav-links">
+        <a href="#portfolio">Portfólio</a>
+        <a href="#tese">Por que existimos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="nav-cta">Investidores</a>
+      </div>
+      <button class="nav-burger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#portfolio" onclick="toggleMenu()">Portfólio</a>
+      <a href="#tese" onclick="toggleMenu()">Por que existimos</a>
+      <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+      <a href="#contato" onclick="toggleMenu()">Investidores</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-eye" id="heroEye">
+        <svg viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 4,40 C 40,4 160,4 196,40 C 160,76 40,76 4,40 Z"
+                stroke="#EEF2F7" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+          <circle cx="100" cy="40" r="26" stroke="#EEF2F7" stroke-width="2.5" fill="none"/>
+          <circle cx="100" cy="40" r="11" fill="#3B6FD4" class="hero-pupil"/>
+        </svg>
+      </div>
+      <h1 class="hero-headline">Sistemas de IA que trabalham<br>enquanto você vive.</h1>
+      <p class="hero-sub">Cada produto NORVIS existe para eliminar um intermediário que você<br class="br-desk"> nunca deveria ter precisado. Presença digital, patrimônio, previdência.</p>
+      <div class="hero-ctas">
+        <a href="#portfolio" class="btn btn-light">Conheça o portfólio</a>
+        <a href="#contato" class="btn btn-ghost">Para investidores</a>
+      </div>
+    </div>
+    <div class="hero-scroll" onclick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})">
+      <span>↓</span>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <div class="section-inner">
+      <div class="section-label">Portfólio</div>
+      <h2 class="section-title">Três problemas.<br>Três sistemas. Um grupo.</h2>
+      <div class="portfolio-grid">
+
+        <div class="product-card">
+          <div class="product-icon product-icon--farol">
+            <svg viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="15" y="58" width="30" height="8" fill="#0D2B4E" rx="1"/>
+              <rect x="18" y="48" width="24" height="10" fill="#0D2B4E"/>
+              <rect x="22" y="32" width="16" height="16" fill="#0D2B4E"/>
+              <polygon points="19,32 41,32 38,26 22,26" fill="#143D6B"/>
+              <path d="M30,24 C27,21 28,17 30,15 C32,17 33,21 30,24Z" fill="#E8614A"/>
+              <path d="M30,24 C27,21 28,17 30,15 C32,17 33,21 30,24Z" fill="#E8614A" transform="rotate(72,30,24)"/>
+              <path d="M30,24 C27,21 28,17 30,15 C32,17 33,21 30,24Z" fill="#E8614A" transform="rotate(144,30,24)"/>
+              <path d="M30,24 C27,21 28,17 30,15 C32,17 33,21 30,24Z" fill="#E8614A" transform="rotate(216,30,24)"/>
+              <path d="M30,24 C27,21 28,17 30,15 C32,17 33,21 30,24Z" fill="#E8614A" transform="rotate(288,30,24)"/>
+              <circle cx="30" cy="24" r="4" fill="#D4A84B"/>
+            </svg>
+          </div>
+          <div class="product-name">Farol</div>
+          <div class="product-category">Presença Digital</div>
+          <p class="product-desc">Cria e gerencia sites para negócios locais automaticamente. Sem agência. Sem mensalidade alta. O site que seu negócio merecia desde sempre.</p>
+          <div class="product-metric">
+            <span class="metric-num">10×</span>
+            <span class="metric-label">mais barato que uma agência</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon product-icon--gestao">
+            <svg viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="20" width="40" height="48" rx="2" stroke="#0D1B2A" stroke-width="2.5" fill="none"/>
+              <path d="M20 35 L40 35" stroke="#3B6FD4" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 43 L40 43" stroke="#3B6FD4" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 51 L32 51" stroke="#3B6FD4" stroke-width="2" stroke-linecap="round"/>
+              <rect x="22" y="10" width="16" height="16" rx="8" stroke="#0D1B2A" stroke-width="2.5" fill="none"/>
+              <circle cx="30" cy="18" r="3" fill="#0D1B2A"/>
+            </svg>
+          </div>
+          <div class="product-name">Gestão de Imóveis</div>
+          <div class="product-category">Patrimônio</div>
+          <p class="product-desc">Gestão completa do aluguel para proprietários sem imobiliária. Contratos, vistorias, cobranças e comunicação com inquilinos — tudo automatizado.</p>
+          <div class="product-metric">
+            <span class="metric-num">R$2.400</span>
+            <span class="metric-label">economizados por ano num aluguel de R$2.000/mês</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon product-icon--decadas">
+            <svg viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="38" r="22" stroke="#0D1B2A" stroke-width="2.5" fill="none"/>
+              <path d="M30 20 L30 38 L44 38" stroke="#3B6FD4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="30" cy="38" r="3" fill="#0D1B2A"/>
+              <path d="M22 14 L30 10 L38 14" stroke="#0D1B2A" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="product-name">Décadas</div>
+          <div class="product-category">Previdência</div>
+          <p class="product-desc">Navega o INSS pelo brasileiro. Conecta ao Gov.br, simula aposentadoria, revisa benefícios e acompanha processos. Seus direitos, finalmente acessíveis.</p>
+          <div class="product-metric">
+            <span class="metric-num">34M</span>
+            <span class="metric-label">brasileiros acima de 60 anos — mercado primário</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESE -->
+  <section id="tese">
+    <div class="section-inner">
+      <div class="section-label">Por que existimos</div>
+      <h2 class="section-title tese-title">O brasileiro paga caro<br>pelo que a tecnologia resolve.</h2>
+      <div class="tese-grid">
+        <div class="tese-item">
+          <div class="tese-num">10%</div>
+          <p>da renda mensal do aluguel vai para a imobiliária. Em um aluguel de R$2.000, são R$200 todo mês — R$2.400 por ano — por um serviço que um sistema faz melhor.</p>
+        </div>
+        <div class="tese-item">
+          <div class="tese-num">R$3.000+</div>
+          <p>é o custo médio de uma agência digital para criar e manter um site de negócio local. 87% desses negócios não têm presença digital. Não é falta de vontade — é falta de acesso.</p>
+        </div>
+        <div class="tese-item">
+          <div class="tese-num">62%</div>
+          <p>dos brasileiros que têm direito à aposentadoria pelo INSS não sabem exatamente a que têm direito. O sistema é complexo por design. Décadas existe para desfazer essa complexidade.</p>
+        </div>
+      </div>
+      <div class="tese-manifesto">
+        <p>
+          A NORVIS foi construída sobre uma convicção simples: serviços que eram caros porque exigiam intermediários humanos especializados podem — e devem — ser democratizados por inteligência artificial.
+        </p>
+        <p>
+          Não construímos IA para substituir empregos. Construímos IA para eliminar privilégios desnecessários. O proprietário de imóvel não deveria precisar de uma imobiliária para receber o próprio aluguel. O trabalhador brasileiro não deveria precisar de um despachante para acessar o que já pagou na vida toda. O dono de negócio não deveria precisar de uma agência para ter presença digital.
+        </p>
+        <p>
+          Cada produto NORVIS é uma barreira derrubada.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="section-inner sobre-inner">
+      <div class="sobre-left">
+        <div class="section-label">Sobre a NORVIS</div>
+        <h2 class="section-title">A inteligência<br>por trás de tudo.</h2>
+        <p class="sobre-text">
+          NORVIS é uma holding brasileira de inteligência artificial fundada com uma obsessão simples: o que um brasileiro pagava a alguém para fazer por ele, agora um sistema faz melhor, mais rápido e por menos.
+        </p>
+        <p class="sobre-text">
+          Cada empresa do portfólio foi construída para um problema brasileiro específico — com rigor técnico, profundidade de mercado e o compromisso de que tecnologia deve servir às pessoas, não o contrário.
+        </p>
+        <a href="#contato" class="btn btn-dark">Fale com a gente</a>
+      </div>
+      <div class="sobre-right">
+        <div class="valores-grid">
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg>
+            </div>
+            <div class="valor-nome">Visão</div>
+            <div class="valor-desc">Enxergamos além do óbvio. O que é opaco para outros é legível para nós.</div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="valor-nome">Precisão</div>
+            <div class="valor-desc">Nada por acaso. Cada sistema, cada interface, cada palavra tem função.</div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div class="valor-nome">Acesso</div>
+            <div class="valor-desc">A inteligência não é privilégio. Cada produto existe para eliminar uma barreira.</div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <div class="valor-nome">Confiança</div>
+            <div class="valor-desc">O patrimônio dos nossos usuários é sagrado. Tratamos com a seriedade que merece.</div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div class="valor-nome">Silêncio</div>
+            <div class="valor-desc">O melhor assistente trabalha sem fazer barulho. Resultados falam mais que promessas.</div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div class="valor-nome">Foco</div>
+            <div class="valor-desc">Construímos menos coisas com mais profundidade. Cada produto é o melhor do seu nicho.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO / INVESTIDORES -->
+  <section id="contato">
+    <div class="section-inner contato-inner">
+      <div class="contato-eye">
+        <svg viewBox="0 0 120 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 2,25 C 24,4 96,4 118,25 C 96,46 24,46 2,25 Z"
+                stroke="#EEF2F7" stroke-width="2" fill="none" stroke-linejoin="round"/>
+          <circle cx="60" cy="25" r="16" stroke="#EEF2F7" stroke-width="2" fill="none"/>
+          <circle cx="60" cy="25" r="7" fill="#3B6FD4"/>
+        </svg>
+      </div>
+      <h2 class="contato-title">Enxergamos oportunidade<br>onde outros veem complexidade.</h2>
+      <p class="contato-sub">Se você investe em tecnologia brasileira ou quer construir o próximo produto NORVIS, vamos conversar.</p>
+      <a href="mailto:investidores@norvis.com.br" class="btn btn-light btn-large">investidores@norvis.com.br</a>
+      <div class="contato-links">
+        <a href="mailto:contato@norvis.com.br">contato@norvis.com.br</a>
+        <span class="sep">·</span>
+        <a href="https://linkedin.com/company/norvis" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="sep">·</span>
+        <span>São Paulo, Brasil</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <svg viewBox="0 0 110 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 2,18 C 14,5 36,5 48,18 C 36,31 14,31 2,18 Z" stroke="#98A8C0" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+          <circle cx="25" cy="18" r="8" stroke="#98A8C0" stroke-width="1.8" fill="none"/>
+          <circle cx="25" cy="18" r="3" fill="#98A8C0"/>
+          <text x="56" y="23" font-family="'Inter', sans-serif" font-size="14" font-weight="300" letter-spacing="4" fill="#98A8C0">NORVIS</text>
+        </svg>
+      </div>
+      <div class="footer-nav">
+        <a href="#portfolio">Portfólio</a>
+        <a href="#tese">Por que existimos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 NORVIS. Todos os direitos reservados.</span>
+        <span>São Paulo, Brasil</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
